@@ -55,7 +55,7 @@ video {
   /* 2 */
 }
 /**
- * Prevent modern browsers from displaying `audio` without controls.
+ * Prevent modern browsers for displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
 audio:not([controls]) {
@@ -79,7 +79,7 @@ a {
   background-color: transparent;
 }
 /**
- * Improve readability of focused elements when they are also in an
+ * Improve readability for focused elements when they are also in an
  * active/hover state.
  */
 a:active,
