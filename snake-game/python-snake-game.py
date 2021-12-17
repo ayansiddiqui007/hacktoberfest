@@ -68,14 +68,17 @@ def move():
         y = head.ycor()
         head.sety(y + 20)
 
+        
     if head.direction == "down":
         y = head.ycor()
         head.sety(y - 20)
 
+        
     if head.direction == "left":
         x = head.xcor()
         head.setx(x - 20)
 
+        
     if head.direction == "right":
         x = head.xcor()
         head.setx(x + 20)
@@ -97,7 +100,7 @@ while True:
         head.goto(0,0)
         head.direction = "stop"
 
-        # Hide the segments
+        # Hidden segments
         for segment in segments:
             segment.goto(1000, 1000)
         
